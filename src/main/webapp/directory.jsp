@@ -11,7 +11,15 @@
 <body>
 <c:set var="title" value="Проводник" />
 <div class="container shadow p-4 mt-4 bg-white rounded">
-    <h1 class="mb-4">${title}</h1>
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1>${title}</h1>
+        <div>
+            <span class="me-3">Вы вошли как: ${username}</span>
+            <a href="logout" class="btn btn-outline-danger">
+                <i class="bi bi-box-arrow-right"></i> Выйти
+            </a>
+        </div>
+    </div>
     <div class="content">
         <p>
             <i class="bi bi-clock"></i>

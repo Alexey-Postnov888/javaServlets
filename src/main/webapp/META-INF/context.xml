@@ -1,0 +1,7 @@
+<Context>
+    <Manager className="org.apache.catalina.session.PersistentManager"
+             saveOnRestart="true">
+        <Store className="org.apache.catalina.session.FileStore"
+               directory="C:/Program Files/apache-tomcat-10.1.36/temp/sessions"/>
+    </Manager>
+</Context>
